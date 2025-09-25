@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
-    flex: 1 1 100px;
+    flex: 15 10 200px;
 }
 
 .logo{
@@ -51,7 +51,7 @@ ul a{
 }
 .header-2{
     display: flex;
-    flex:3 1 100px;
+    flex:2 1 100px;
     justify-content: space-between;
     /* align-self:center; */
 
@@ -68,7 +68,7 @@ ul a{
     background-color: rgba(21, 20, 20, 0.593);
 }
 .bot{
-    flex:1 1 20px;
+    flex:10 10 100px;
 }
 .big{
     font-size: 48px;
