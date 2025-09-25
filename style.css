@@ -93,8 +93,7 @@ ul a{
 .mid-contaner{
     display: flex;
     flex-direction: column;
-
-    height: 75vh;
+    height: 90vh;
     align-items: center;
 }
 
@@ -102,13 +101,15 @@ ul a{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    padding: 2.5em;
+    padding: 1em;
+    flex: 1 0 auto;
 }
 
 .flex-like-grid{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
+    flex: 1 0 auto;
 }
 
 .flex-column{
@@ -124,4 +125,34 @@ ul a{
     box-sizing: border-box;
     border: 3px solid #3882f6;
     border-radius:13px ;
+}
+.contaner-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #e5e7eb;
+}
+
+.quote-center
+{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+    flex:0 1 auto;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.quote-said{
+    color: #1f2937;
+    font-size:22px ;
+    font-weight: 900;
+    align-self: stretch;
+    margin-left: auto;
 }
