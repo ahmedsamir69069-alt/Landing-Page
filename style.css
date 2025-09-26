@@ -88,6 +88,7 @@ ul a{
     font-size: 20px;
     padding: 12px 24px;
     border-radius: 12px;
+    border-color: #3882f6;
 }
 
 .mid-contaner{
@@ -155,4 +156,34 @@ ul a{
     font-weight: 900;
     align-self: stretch;
     margin-left: auto;
+}
+.last-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.last{
+    background-color: #3b82f6;
+    width: 900px;
+    height: 25vh;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button.last-right{
+    border: 2px solid white;
+    background-color: #3882f6;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 15vh;
 }
